@@ -20,7 +20,7 @@ export const Navbar = () => {
                         <a href="#">Services</a>
                         </li>
                         <li>
-                        <a href="#">Contact</a>
+                        <a href="https://muktinathrajbanshi.com/" target="blank">Contact</a>
                         </li>
                     </ul>
                 </nav>
