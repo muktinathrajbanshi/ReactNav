@@ -8,10 +8,17 @@ export const HeroSection = () => {
                             <h1 className="heading-xl">
                                 All Your Files in One Secure Location.
                             </h1>
+                            <p className="paragraph">
+                                We stores all your most important files in one secure location.
+                                Access them whenever needed, share and collaborate with your connections.
+                            </p>
+                            <button>
+                                Get Started
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </>
-    )
-}
+    );
+};
