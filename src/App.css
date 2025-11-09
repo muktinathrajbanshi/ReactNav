@@ -23,6 +23,7 @@ li {
 
 a {
   color: #000;
+  text-decoration: none;
 }
 
 a:hover {
@@ -51,6 +52,7 @@ header {
   grid-template-columns: 0.5fr 1fr;
   align-items: center;
   height: 10rem;
+  padding: 0 3.2rem;
 }
 
 nav ul {

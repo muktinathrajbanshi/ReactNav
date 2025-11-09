@@ -1,3 +1,5 @@
+import { GiHamburgerMenu } from "react-icons/gi";
+
 export const Navbar = () => {
     return(
         <>
@@ -24,6 +26,12 @@ export const Navbar = () => {
                         </li>
                     </ul>
                 </nav>
+
+                <div className="ham-menu">
+                <button>
+                    <GiHamburgerMenu />
+                </button>
+                </div>
 
              </div>
             </div>
