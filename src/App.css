@@ -70,6 +70,52 @@ nav ul {
   display: none;
 }
 
+.hero-section {
+  margin: 2.5rem 2.5rem;
+}
+
+.main {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.banner-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.hero-section h1 {
+  letter-spacing: 0.1rem;
+  font-size: 2.8rem;
+}
+
+.hero-section p {
+  justify-content: center;
+}
+
+button {
+  width: 12rem;
+  font-size: 1.2rem;
+  padding: 1rem 1.5rem;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+}
+
 /* media queries  */
 @media screen and (max-width: 998px) {
   .menu-web {

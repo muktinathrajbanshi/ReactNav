@@ -16,6 +16,11 @@ export const HeroSection = () => {
                                 Get Started
                             </button>
                         </div>
+                        <div className="imgage-div">
+                            <image>
+                                <img src="./navbar.png" alt="main hero image" />
+                            </image>
+                        </div>
                     </div>
                 </div>
             </div>
