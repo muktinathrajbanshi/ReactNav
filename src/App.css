@@ -17,6 +17,19 @@ button {
   letter-spacing: 0.1rem;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #2e86c1;
+  text-decoration: underline;
+}
+
 header {
   height: 10rem;
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
@@ -27,4 +40,22 @@ header {
 .container {
   max-width: 132rem;
   margin: auto;
+  height: 10rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.navbar-grid {
+  grid-template-columns: 0.5fr 1fr;
+  align-items: center;
+  height: 10rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  /* background-color: red; */
+  gap: 3.2rem;
 }
