@@ -16,3 +16,15 @@ button {
   font-size: 1.7rem;
   letter-spacing: 0.1rem;
 }
+
+header {
+  height: 10rem;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  background-color: #d4e6f1;
+  width: 100%;
+}
+
+.container {
+  max-width: 132rem;
+  margin: auto;
+}
