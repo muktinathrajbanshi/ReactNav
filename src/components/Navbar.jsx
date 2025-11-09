@@ -1,6 +1,14 @@
+import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 export const Navbar = () => {
+
+    const [showMenu, setShowMenu] = useState(false);
+
+    const handleButtonToggle = () => {
+        setShowMenu(!showMenu);
+    };
+
     return(
         <>
         <header>
@@ -10,7 +18,7 @@ export const Navbar = () => {
                     <h1>Muktinath Tech</h1>
                 </div>
 
-                <nav>
+                <nav className={showMenu ? "menu-mobile" : "menu-web"}>
                     <ul>
                         <li>
                          <a href="#">Home</a>
@@ -28,7 +36,7 @@ export const Navbar = () => {
                 </nav>
 
                 <div className="ham-menu">
-                <button>
+                <button onClick={handleButtonToggle}>
                     <GiHamburgerMenu />
                 </button>
                 </div>
