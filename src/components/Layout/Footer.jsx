@@ -8,7 +8,9 @@ import footerContact from "../../api/footerContact.json";
 export const Footer = () => {
 
     const iconMap = {
-        MdPlace: <MdPlace />
+        IoCallSharp: <IoCallSharp />,
+        MdPlace: <MdPlace />,
+        TbMailPlus: <TbMailPlus />
     }
 
     return (
@@ -16,24 +18,21 @@ export const Footer = () => {
          <div className="container">
             <div className="grid grid-three-cols">
 
-
                 {
-                    footerContact.map((curData) => {
+                    footerContact.map((curData, index) => {
                         const {icon, title, details} = curData;
                         return (
-                            <>
-                                <div className="footer-contact">
+                            
+                                <div className="footer-contact" key={index}>
                                 <div className="icon">
-                                    {iconMap.icon}
+                                    {iconMap[icon]}
                                 </div>
                                 <div className="footer-contact-text">
                                     <p>{title}</p>
                                     <p>{details}</p>
                                 </div>
                                </div>
-                       
-                        </>
-                        )
+                        );
                     })
                 }  
         </div>

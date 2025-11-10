@@ -120,6 +120,16 @@ button {
   margin: 30rem 2.5rem;
 }
 
+.grid-three-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-contact {
+  display: flex;
+  gap: 1rem;
+  margin: 6.5rem 0;
+}
+
 /* media queries  */
 @media screen and (max-width: 998px) {
   .menu-web {
