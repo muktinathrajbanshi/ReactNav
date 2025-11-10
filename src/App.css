@@ -24,6 +24,7 @@ li {
 a {
   color: #000;
   text-decoration: none;
+  color: #fff;
 }
 
 a:hover {
@@ -38,18 +39,20 @@ button {
 header {
   height: 10rem;
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
-  background-color: #d4e6f1;
+  background-color: #fff;
   width: 100%;
 }
 
 .container {
-  max-width: 132rem;
+  width: 100%;
   margin: auto;
-  height: 10rem;
+  height: 100vh;
+  background-color: #000;
 }
 
 .grid {
   display: grid;
+  margin: 0 4rem;
 }
 
 .navbar-grid {
@@ -57,12 +60,13 @@ header {
   align-items: center;
   height: 10rem;
   padding: 0 3.2rem;
+  color: #fff;
 }
 
 nav ul {
   display: flex;
   justify-content: flex-end;
-  /* background-color: red; */
+  color: #fff;
   gap: 3.2rem;
 }
 
@@ -70,13 +74,8 @@ nav ul {
   display: none;
 }
 
-.hero-section {
-  margin: 2.5rem 2.5rem;
-}
-
 .main {
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
 }
 
@@ -84,7 +83,7 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000;
+  margin: 2rem 9rem 0 9rem;
 }
 
 .banner-inner {
@@ -119,18 +118,14 @@ button {
   -o-border-radius: 0.3rem;
 }
 
-.footer-section {
-  margin: 30rem 2.5rem;
-}
-
 .grid-three-cols {
   grid-template-columns: repeat(3, 1fr);
+  margin: 0 9rem;
 }
 
 .footer-contact {
   display: flex;
   gap: 2rem;
-  margin: 6.5rem 0;
 }
 
 .footer-contact .icon {
