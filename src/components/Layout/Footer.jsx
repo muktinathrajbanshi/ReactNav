@@ -8,8 +8,8 @@ import footerContact from "../../api/footerContact.json";
 export const Footer = () => {
 
     const iconMap = {
-        IoCallSharp: <IoCallSharp />,
         MdPlace: <MdPlace />,
+        IoCallSharp: <IoCallSharp />,
         TbMailPlus: <TbMailPlus />
     }
 
@@ -23,18 +23,21 @@ export const Footer = () => {
                         const {icon, title, details} = curData;
                         return (
                             
-                                <div className="footer-contact" key={index}>
-                                <div className="icon">
-                                    {iconMap[icon]}
-                                </div>
-                                <div className="footer-contact-text">
-                                    <p>{title}</p>
-                                    <p>{details}</p>
-                                </div>
-                               </div>
+                        <div className="footer-contact" key={index}>
+                            <div className="icon">
+                                {iconMap[icon]}
+                            </div>
+                            <div className="footer-contact-text">
+                                <p>{title}</p>
+                                <p>{details}</p>
+                            </div>
+                        </div>
                         );
                     })
                 }  
+        </div>
+        <div className="footer-content">
+            <p>Copyright © 2025. All right reserved MuktinathTech </p>
         </div>
         </div>
         </footer>

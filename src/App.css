@@ -118,6 +118,10 @@ button {
   -o-border-radius: 0.3rem;
 }
 
+button:hover {
+  border-color: #2980b9;
+}
+
 .grid-three-cols {
   grid-template-columns: repeat(3, 1fr);
   margin: 0 9rem;
@@ -135,6 +139,13 @@ button {
 
 .footer-contact .footer-contact-text {
   color: #fff;
+}
+
+.footer-content p {
+  color: #fff;
+  margin: 16rem 9rem 0 9rem;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 /* media queries  */
