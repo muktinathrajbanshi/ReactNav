@@ -84,6 +84,7 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #000;
 }
 
 .banner-inner {
@@ -95,10 +96,12 @@ nav ul {
 .hero-section h1 {
   letter-spacing: 0.1rem;
   font-size: 2.8rem;
+  color: #fff;
 }
 
 .hero-section p {
   justify-content: center;
+  color: #fff;
 }
 
 button {
@@ -107,7 +110,7 @@ button {
   padding: 1rem 1.5rem;
   color: #fff;
   background-color: #000;
-  border: none;
+  border: 1px solid #fff;
   outline: none;
   border-radius: 0.3rem;
   -webkit-border-radius: 0.3rem;
@@ -126,8 +129,17 @@ button {
 
 .footer-contact {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   margin: 6.5rem 0;
+}
+
+.footer-contact .icon {
+  font-size: 3rem;
+  color: #2980b9;
+}
+
+.footer-contact .footer-contact-text {
+  color: #fff;
 }
 
 /* media queries  */
